@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:app/homepage.dart';
+import 'package:app/widgets/home.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -11,7 +11,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: const HomePage(title: 'AAUNO'),
+      home: const Home(title: 'AAUNO'),
     );
   }
 }
